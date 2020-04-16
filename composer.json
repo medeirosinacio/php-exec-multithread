@@ -1,0 +1,31 @@
+{
+  "name": "medeirosinacio/exec-multithread",
+  "type": "standard",
+  "description": "A thread implementation in PHP using the exec function.",
+  "homepage": "https://github.com/medeirosinacio/php-exec-multithread",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Douglas Medeiros",
+      "email": "medeirosinacio@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-posix": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "medeirosinacio\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "medeirosinacio\\": "tests/"
+    }
+  },
+  "bin": [
+    "bin/medeirosinacio-app"
+  ]
+}
