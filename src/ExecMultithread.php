@@ -1,10 +1,14 @@
 <?php
 
-
 namespace medeirosinacio;
 
 use ErrorException;
 
+/**
+ * Class ExecMultithread
+ * A thread implementation in PHP using the exec function
+ * @package medeirosinacio
+ */
 class ExecMultithread
 {
 	
